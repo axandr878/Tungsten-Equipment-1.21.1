@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "has_tungsten": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tungsten_mod:tungsten_clump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "Dabble in the Tungsten Mod",
+    "icon": {
+      "count": 1,
+      "id": "tungsten_mod:tungsten_ingot"
+    },
+    "show_toast": false,
+    "title": "Tungsten"
+  },
+  "requirements": [
+    [
+      "has_tungsten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

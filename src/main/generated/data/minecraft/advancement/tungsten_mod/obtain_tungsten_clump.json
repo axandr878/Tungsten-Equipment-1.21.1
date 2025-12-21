@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:tungsten_mod/obtain_tungsten",
+  "criteria": {
+    "has_tungsten_clump": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tungsten_mod:tungsten_clump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "Obtain a Tungsten Clump",
+    "icon": {
+      "count": 1,
+      "id": "tungsten_mod:tungsten_clump"
+    },
+    "title": "Netherites Equal"
+  },
+  "requirements": [
+    [
+      "has_tungsten_clump"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

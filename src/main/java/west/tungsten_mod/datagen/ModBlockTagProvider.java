@@ -22,5 +22,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TUNGSTEN_BLOCK)
                 .add(ModBlocks.TUNGSTEN_CLUMP);
+
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.TUNGSTEN_BLOCK);
     }
 }

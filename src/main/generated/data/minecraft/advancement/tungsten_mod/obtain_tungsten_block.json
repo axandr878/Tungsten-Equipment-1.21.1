@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:tungsten_mod/obtain_tungsten_clump",
+  "criteria": {
+    "has_tungsten_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tungsten_mod:tungsten_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Obtain tungsten block",
+    "icon": {
+      "count": 1,
+      "id": "tungsten_mod:tungsten_block"
+    },
+    "title": "Rich in Tungsten"
+  },
+  "requirements": [
+    [
+      "has_tungsten_block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
