@@ -2,6 +2,8 @@
   "item.tungsten_mod.tungsten_ingot": "Tungsten Ingot",
   "item.tungsten_mod.tungsten_scrap": "Tungsten Scrap",
 
+  "item.tungsten_mod.tungsten_upgrade_template": "Smithing Template",
+
   "block.tungsten_mod.tungsten_block": "Block of Tungsten",
   "block.tungsten_mod.tungsten_clump": "Tungsten Clump",
 
@@ -11,5 +13,11 @@
   "item.tungsten_mod.tungsten_axe": "Tungsten Axe",
   "item.tungsten_mod.tungsten_pickaxe": "Tungsten Pickaxe",
   "item.tungsten_mod.tungsten_hoe": "Tungsten Hoe",
-  "item.tungsten_mod.tungsten_sword": "Tungsten Sword"
+  "item.tungsten_mod.tungsten_sword": "Tungsten Sword",
+
+  "item.tungsten_mod.tungsten_upgrade_template.applies_to": "Tungsten Equipment",
+  "item.tungsten_mod.tungsten_upgrade_template.ingredients": "Tungsten Ingot",
+  "item.tungsten_mod.tungsten_upgrade_template.title": "Tungsten Upgrade",
+  "item.tungsten_mod.tungsten_upgrade_template.base_slot_description": "Add diamond equipment",
+  "item.tungsten_mod.tungsten_upgrade_template.additions_slot_description": "Add tungsten ingot"
 }

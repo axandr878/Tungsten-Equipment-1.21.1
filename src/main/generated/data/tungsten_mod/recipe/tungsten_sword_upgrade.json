@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tungsten_mod:tungsten_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "tungsten_mod:tungsten_sword"
+  },
+  "template": {
+    "item": "tungsten_mod:tungsten_upgrade_template"
+  }
+}

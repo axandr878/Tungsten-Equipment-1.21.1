@@ -4,7 +4,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -74,5 +76,70 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         exporter,
                         Identifier.of(TungstenMod.MOD_ID, "tungsten_ingot_from_scrap")
                 );
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SWORD),
+                        Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+                        RecipeCategory.MISC,
+                        ModItems.TUNGSTEN_SWORD
+                )
+                .criterion(
+                        hasItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
+                )
+                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_sword_upgrade"));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_PICKAXE),
+                        Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+                        RecipeCategory.MISC,
+                        ModItems.TUNGSTEN_PICKAXE
+                )
+                .criterion(
+                        hasItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
+                )
+                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_pickaxe_upgrade"));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_AXE),
+                        Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+                        RecipeCategory.MISC,
+                        ModItems.TUNGSTEN_AXE
+                )
+                .criterion(
+                        hasItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
+                )
+                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_axe_upgrade"));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HOE),
+                        Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+                        RecipeCategory.MISC,
+                        ModItems.TUNGSTEN_HOE
+                )
+                .criterion(
+                        hasItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
+                )
+                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_hoe_upgrade"));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SHOVEL),
+                        Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+                        RecipeCategory.MISC,
+                        ModItems.TUNGSTEN_SHOVEL
+                )
+                .criterion(
+                        hasItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
+                )
+                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_shovel_upgrade"));
     }
 }

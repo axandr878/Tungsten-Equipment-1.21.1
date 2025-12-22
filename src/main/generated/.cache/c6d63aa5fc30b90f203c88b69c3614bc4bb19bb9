@@ -1,5 +1,6 @@
-// 1.21.1	2025-12-22T13:05:59.6655774	Tungsten Mod/Tags for minecraft:item
+// 1.21.1	2025-12-22T19:50:04.14152	Tungsten Mod/Tags for minecraft:item
 53f65dbc8eee4f3edac58c55a08b7d131a6c44d1 data\minecraft\tags\item\trim_materials.json
+53f65dbc8eee4f3edac58c55a08b7d131a6c44d1 data\minecraft\tags\item\beacon_payment_items.json
 de7206a14239a224a3ffa4fc36c237da06f0df8a data\minecraft\tags\item\pickaxes.json
 fa52c78635b0d139c43e981acac30d7290b61696 data\minecraft\tags\item\hoes.json
 f3ef1f169377e8960abc6144df454bd0c16211a5 data\minecraft\tags\item\swords.json

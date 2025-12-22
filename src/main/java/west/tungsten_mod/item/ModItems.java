@@ -4,12 +4,47 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import west.tungsten_mod.TungstenMod;
+import net.minecraft.item.SmithingTemplateItem;
+import java.util.List;
+
 
 public class ModItems {
     public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item(new Item.Settings().fireproof()));
     public static final Item TUNGSTEN_SCRAP = registerItem("tungsten_scrap", new Item(new Item.Settings().fireproof()));
+
+    public static final Item TUNGSTEN_UPGRADE_TEMPLATE = Registry.register(
+            Registries.ITEM,
+            Identifier.of(TungstenMod.MOD_ID, "tungsten_upgrade_template"),
+            new SmithingTemplateItem(
+                    Text.translatable("item.tungsten_mod.tungsten_upgrade_template.applies_to"),
+                    Text.translatable("item.tungsten_mod.tungsten_upgrade_template.ingredients"),
+                    Text.translatable("item.tungsten_mod.tungsten_upgrade_template.title"),
+                    Text.translatable("item.tungsten_mod.tungsten_upgrade_template.base_slot_description"),
+                    Text.translatable("item.tungsten_mod.tungsten_upgrade_template.additions_slot_description"),
+                    getTungstenBaseSlotTextures(),
+                    getTungstenAdditionSlotTextures()
+            )
+    );
+
+    private static List<Identifier> getTungstenBaseSlotTextures() {
+        return List.of(
+                Identifier.ofVanilla("item/empty_slot_sword"),
+                Identifier.ofVanilla("item/empty_slot_pickaxe"),
+                Identifier.ofVanilla("item/empty_slot_axe"),
+                Identifier.ofVanilla("item/empty_slot_shovel"),
+                Identifier.ofVanilla("item/empty_slot_hoe")
+        );
+    }
+
+    private static List<Identifier> getTungstenAdditionSlotTextures() {
+        return List.of(
+                Identifier.ofVanilla("item/empty_slot_ingot")
+        );
+    }
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TungstenMod.MOD_ID, name), item);

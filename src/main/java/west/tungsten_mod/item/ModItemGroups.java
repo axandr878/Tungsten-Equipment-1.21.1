@@ -23,6 +23,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TUNGSTEN_INGOT);
                         entries.add(ModItems.TUNGSTEN_SCRAP);
 
+                        //ignore for now doesnt work i dont think
+                        entries.add(ModItems.TUNGSTEN_UPGRADE_TEMPLATE);
+
                         // Blocks
                         entries.add(ModBlocks.TUNGSTEN_BLOCK);
                         entries.add(ModBlocks.TUNGSTEN_CLUMP);

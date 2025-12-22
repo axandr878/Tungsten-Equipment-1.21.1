@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tungsten_mod:tungsten_sword"
+        "recipe": "tungsten_mod:tungsten_shovel_upgrade"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_tungsten_ingot": {
+    "has_tungsten_upgrade_template": {
       "conditions": {
         "items": [
           {
-            "items": "tungsten_mod:tungsten_ingot"
+            "items": "tungsten_mod:tungsten_upgrade_template"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_tungsten_ingot"
+      "has_tungsten_upgrade_template"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tungsten_mod:tungsten_sword"
+      "tungsten_mod:tungsten_shovel_upgrade"
     ]
   }
 }

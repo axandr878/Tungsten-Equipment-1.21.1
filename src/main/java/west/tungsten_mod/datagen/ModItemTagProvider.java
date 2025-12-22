@@ -2,6 +2,7 @@ package west.tungsten_mod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import org.intellij.lang.annotations.Identifier;
@@ -17,6 +18,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(west.tungsten_mod.item.ModItems.TUNGSTEN_INGOT);
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
                 .add(west.tungsten_mod.item.ModItems.TUNGSTEN_INGOT);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
