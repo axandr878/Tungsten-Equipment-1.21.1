@@ -1,9 +1,14 @@
-// 1.21.1	2025-12-21T22:42:10.7573894	Tungsten Mod/Model Definitions
+// 1.21.1	2025-12-22T13:05:59.6655774	Tungsten Mod/Model Definitions
 99dce4fac3995aacd7265be8284e5aaf1d536d8a assets\tungsten_mod\models\block\tungsten_block.json
 de502f0a476f81b8bedea286824800969acc80c2 assets\tungsten_mod\blockstates\tungsten_clump.json
-9d3d8aa625b033c9351493a8ef132d9859e2d6ab assets\tungsten_mod\models\item\tungsten_scrap.json
+e0bc5550567d7ed6a332534ed2a28e79304b6631 assets\tungsten_mod\models\item\tungsten_sword.json
 024b85ca7325509bb9e01526a438e32f296257b6 assets\tungsten_mod\blockstates\tungsten_block.json
-073c57d81ec236816da69e06dbc71fd05cd51c79 assets\tungsten_mod\models\item\tungsten_clump.json
+bf4398ab496349640dfc23fb24372eac03c8c0f7 assets\tungsten_mod\models\item\tungsten_pickaxe.json
 014d816a6b274b2ff67b2215a4e2d450ea545db1 assets\tungsten_mod\models\block\tungsten_clump.json
+c16d2ddfcd414f1e5f0f61d90b7307d90f605c0f assets\tungsten_mod\models\item\tungsten_axe.json
 f0d6d244b989b48ad554de62c992e90732f7c1a6 assets\tungsten_mod\models\item\tungsten_ingot.json
+9d3d8aa625b033c9351493a8ef132d9859e2d6ab assets\tungsten_mod\models\item\tungsten_scrap.json
+7aeefc21b0a69e25f6cea3b28ac1d3517591f9bd assets\tungsten_mod\models\item\tungsten_shovel.json
+073c57d81ec236816da69e06dbc71fd05cd51c79 assets\tungsten_mod\models\item\tungsten_clump.json
+2244ec4755d3880a1eb2f3790f22e73dbd461203 assets\tungsten_mod\models\item\tungsten_hoe.json
 05d6cf1e7255ad2069cb9be53257f65ce2ca9d09 assets\tungsten_mod\models\item\tungsten_block.json

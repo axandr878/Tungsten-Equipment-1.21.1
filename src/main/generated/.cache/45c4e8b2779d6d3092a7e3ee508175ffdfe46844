@@ -1,4 +1,5 @@
-// 1.21.1	2025-12-21T22:42:10.758389	Tungsten Mod/Tags for minecraft:block
+// 1.21.1	2025-12-22T13:05:59.6665782	Tungsten Mod/Tags for minecraft:block
 5c22d3b7276af9b14e4ec5f634d2bba469eb3219 data\minecraft\tags\block\beacon_base_blocks.json
 04da5fbfc320511f52e9ba9e29e3bfa778c4dc97 data\minecraft\tags\block\mineable\pickaxe.json
 04da5fbfc320511f52e9ba9e29e3bfa778c4dc97 data\minecraft\tags\block\needs_diamond_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\tungsten_mod\tags\block\needs_tungsten_tool.json

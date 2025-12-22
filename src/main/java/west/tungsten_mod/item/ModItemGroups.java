@@ -26,6 +26,14 @@ public class ModItemGroups {
                         // Blocks
                         entries.add(ModBlocks.TUNGSTEN_BLOCK);
                         entries.add(ModBlocks.TUNGSTEN_CLUMP);
+
+                        // uh tools ig
+                        entries.add(ModItems.TUNGSTEN_SWORD);
+                        entries.add(ModItems.TUNGSTEN_PICKAXE);
+                        entries.add(ModItems.TUNGSTEN_AXE);
+                        entries.add(ModItems.TUNGSTEN_HOE);
+                        entries.add(ModItems.TUNGSTEN_SHOVEL);
+
                     })
                     .build()
     );

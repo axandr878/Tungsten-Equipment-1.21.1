@@ -5,5 +5,11 @@
   "block.tungsten_mod.tungsten_block": "Block of Tungsten",
   "block.tungsten_mod.tungsten_clump": "Tungsten Clump",
 
-  "itemgroup.tungsten_mod": "Tungsten Mod"
+  "itemgroup.tungsten_mod": "Tungsten Mod",
+
+  "item.tungsten_mod.tungsten_shovel": "Tungsten Shovel",
+  "item.tungsten_mod.tungsten_axe": "Tungsten Axe",
+  "item.tungsten_mod.tungsten_pickaxe": "Tungsten Pickaxe",
+  "item.tungsten_mod.tungsten_hoe": "Tungsten Hoe",
+  "item.tungsten_mod.tungsten_sword": "Tungsten Sword"
 }
