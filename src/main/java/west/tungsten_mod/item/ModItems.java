@@ -72,6 +72,19 @@ public class ModItems {
                     .fireproof()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TUNGSTEN, -4.0F, 0.0F))));
 
+    public static final Item TUNSGTEN_HELMET = registerItem("tungsten_helmet",
+            new ArmorItem(ModArmorMaterials.TUNSGTEN, ArmorItem.Type.HELMET, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
+    public static final Item TUNSGTEN_CHESTPLATE = registerItem("tungsten_chestplate",
+            new ArmorItem(ModArmorMaterials.TUNSGTEN, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
+    public static final Item TUNSGTEN_LEGGINGS = registerItem("tungsten_leggings",
+            new ArmorItem(ModArmorMaterials.TUNSGTEN, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
+    public static final Item TUNSGTEN_BOOTS = registerItem("tungsten_boots",
+            new ArmorItem(ModArmorMaterials.TUNSGTEN, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+
     public static void registerModItems() {
         TungstenMod.LOGGER.info("Registering Mod Items for " + TungstenMod.MOD_ID);
 

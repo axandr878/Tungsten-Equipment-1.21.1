@@ -10,7 +10,7 @@ import west.tungsten_mod.util.ModTags;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    TUNGSTEN(ModTags.Blocks.INCORRECT_FOR_TUNGSTEN_TOOL, 2266, 8.5F, 3.5F, 17, () -> Ingredient.ofItems(ModItems.TUNGSTEN_INGOT));
+    TUNGSTEN(ModTags.Blocks.INCORRECT_FOR_TUNGSTEN_TOOL, 2031, 9F, 4F, 15, () -> Ingredient.ofItems(ModItems.TUNGSTEN_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

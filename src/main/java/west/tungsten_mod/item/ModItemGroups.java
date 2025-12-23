@@ -23,7 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TUNGSTEN_INGOT);
                         entries.add(ModItems.TUNGSTEN_SCRAP);
 
-                        //ignore for now doesnt work i dont think
+                        //template
                         entries.add(ModItems.TUNGSTEN_UPGRADE_TEMPLATE);
 
                         // Blocks
@@ -37,6 +37,11 @@ public class ModItemGroups {
                         entries.add(ModItems.TUNGSTEN_HOE);
                         entries.add(ModItems.TUNGSTEN_SHOVEL);
 
+                        //armoireror
+                        entries.add(ModItems.TUNSGTEN_CHESTPLATE);
+                        entries.add(ModItems.TUNSGTEN_BOOTS);
+                        entries.add(ModItems.TUNSGTEN_HELMET);
+                        entries.add(ModItems.TUNSGTEN_LEGGINGS);
                     })
                     .build()
     );

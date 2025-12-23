@@ -141,5 +141,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
                 )
                 .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_shovel_upgrade"));
+
+
     }
 }

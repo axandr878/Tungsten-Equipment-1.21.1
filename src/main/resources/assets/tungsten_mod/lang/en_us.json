@@ -19,5 +19,10 @@
   "item.tungsten_mod.tungsten_upgrade_template.ingredients": "Tungsten Ingot",
   "item.tungsten_mod.tungsten_upgrade_template.title": "Tungsten Upgrade",
   "item.tungsten_mod.tungsten_upgrade_template.base_slot_description": "Add diamond equipment",
-  "item.tungsten_mod.tungsten_upgrade_template.additions_slot_description": "Add tungsten ingot"
+  "item.tungsten_mod.tungsten_upgrade_template.additions_slot_description": "Add tungsten ingot",
+
+  "item.tungsten_mod.tungsten_helmet": "Tungsten Helmet",
+  "item.tungsten_mod.tungsten_chestplate": "Tungsten Chestplate",
+  "item.tungsten_mod.tungsten_boots": "Tungsten Boots",
+  "item.tungsten_mod.tungsten_leggings": "Tungsten Leggings"
 }
