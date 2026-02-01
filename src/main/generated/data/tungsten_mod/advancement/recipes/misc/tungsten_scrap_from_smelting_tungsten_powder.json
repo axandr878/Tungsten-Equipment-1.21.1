@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tungsten_mod:tungsten_slop"
+        "recipe": "tungsten_mod:tungsten_scrap_from_smelting_tungsten_powder"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_tungsten_ingot": {
+    "has_tungsten_powder": {
       "conditions": {
         "items": [
           {
-            "items": "tungsten_mod:tungsten_ingot"
+            "items": "tungsten_mod:tungsten_powder"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_tungsten_ingot"
+      "has_tungsten_powder"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tungsten_mod:tungsten_slop"
+      "tungsten_mod:tungsten_scrap_from_smelting_tungsten_powder"
     ]
   }
 }

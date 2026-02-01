@@ -30,7 +30,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSmelting(
                 exporter,
-                List.of(ModBlocks.TUNGSTEN_CLUMP),
+                List.of(ModItems.TUNGSTEN_POWDER),
                 RecipeCategory.MISC,
                 ModItems.TUNGSTEN_SCRAP,
                 2.0f,
@@ -40,7 +40,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerBlasting(
                 exporter,
-                List.of(ModBlocks.TUNGSTEN_CLUMP),
+                List.of(ModItems.TUNGSTEN_POWDER),
                 RecipeCategory.MISC,
                 ModItems.TUNGSTEN_SCRAP,
                 2.0f,
@@ -218,18 +218,5 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
                 )
                 .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_chestplate_upgrade"));
-
-        ShapelessRecipeJsonBuilder.create(
-                        RecipeCategory.FOOD,
-                        ModItems.TUNGSTEN_SLOP
-                )
-                .input(Items.BROWN_MUSHROOM)
-                .input(Items.BOWL)
-                .input(ModItems.TUNGSTEN_INGOT)
-                .criterion(
-                        hasItem(ModItems.TUNGSTEN_INGOT),
-                        conditionsFromItem(ModItems.TUNGSTEN_INGOT)
-                )
-                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_slop"));
     }
 }

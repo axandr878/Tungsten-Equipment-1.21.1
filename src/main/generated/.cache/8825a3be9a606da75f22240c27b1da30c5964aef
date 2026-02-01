@@ -1,4 +1,4 @@
-// 1.21.1	2025-12-27T22:49:44.8048402	Tungsten Mod/Model Definitions
+// 1.21.1	2026-02-01T13:57:27.0841533	Tungsten Mod/Model Definitions
 6e201449df66831851b40fea013797978968a759 assets\tungsten_mod\models\item\tungsten_leggings_iron_trim.json
 cd7c7d6819dec7c863a8b28b195d53ac6c73e1c7 assets\tungsten_mod\models\item\tungsten_chestplate_copper_trim.json
 e0bc5550567d7ed6a332534ed2a28e79304b6631 assets\tungsten_mod\models\item\tungsten_sword.json
@@ -13,6 +13,7 @@ f0b395e997b2e2d3e1293f512e56d8c722ce9019 assets\tungsten_mod\models\item\tungste
 b406dca3b0d0403063aff4e0ff74b814d95640dd assets\tungsten_mod\models\item\tungsten_leggings_redstone_trim.json
 de502f0a476f81b8bedea286824800969acc80c2 assets\tungsten_mod\blockstates\tungsten_clump.json
 dcb83014597343eb4e964e2cb4cc6d8506dc67ef assets\tungsten_mod\models\item\tungsten_helmet_lapis_trim.json
+f73ef0ec8493f590ac572e1bc89d34ff701d1ce4 assets\tungsten_mod\models\item\tungsten_powder.json
 152edf2fe49b6cdbd2fece746feff98996ab3c6b assets\tungsten_mod\models\item\tungsten_boots.json
 ebfbd38c52c6b04359cbfe987406474b64a1edbf assets\tungsten_mod\models\item\tungsten_chestplate.json
 bf4398ab496349640dfc23fb24372eac03c8c0f7 assets\tungsten_mod\models\item\tungsten_pickaxe.json
@@ -22,7 +23,6 @@ a367c48c2dbd5357afc199042cf2782550d32246 assets\tungsten_mod\models\item\tungste
 af730b8756a855d4c744e0fd23f92819ca4ab2ae assets\tungsten_mod\models\item\tungsten_chestplate_iron_trim.json
 f021e5ceca7ccad2382d5ba36a28ecd63d9da9fe assets\tungsten_mod\models\item\tungsten_helmet_diamond_trim.json
 2244ec4755d3880a1eb2f3790f22e73dbd461203 assets\tungsten_mod\models\item\tungsten_hoe.json
-11536c86708c94cb4eeab0e2c70994460b326585 assets\tungsten_mod\models\item\tungsten_slop.json
 1c7391a6af9ac57618af11480fd71948d5c8aa38 assets\tungsten_mod\models\item\tungsten_boots_amethyst_trim.json
 1941f3fcd14c37acd62ce2143c7e7a415d92b294 assets\tungsten_mod\models\item\tungsten_chestplate_lapis_trim.json
 05d6cf1e7255ad2069cb9be53257f65ce2ca9d09 assets\tungsten_mod\models\item\tungsten_block.json

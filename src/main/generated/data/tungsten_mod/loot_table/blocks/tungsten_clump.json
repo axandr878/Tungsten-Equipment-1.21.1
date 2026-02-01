@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tungsten_mod:tungsten_clump"
+          "name": "tungsten_mod:tungsten_powder"
         }
       ],
       "rolls": 1.0

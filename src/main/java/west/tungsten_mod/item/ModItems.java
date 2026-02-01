@@ -1,9 +1,6 @@
 package west.tungsten_mod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.component.type.FoodComponent;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -18,6 +15,7 @@ import java.util.List;
 public class ModItems {
     public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item(new Item.Settings().fireproof()));
     public static final Item TUNGSTEN_SCRAP = registerItem("tungsten_scrap", new Item(new Item.Settings().fireproof()));
+    public static final Item TUNGSTEN_POWDER = registerItem("tungsten_powder", new Item(new Item.Settings().fireproof()));
 
     public static final Item TUNGSTEN_UPGRADE_TEMPLATE = Registry.register(
             Registries.ITEM,
@@ -105,25 +103,11 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(42))));
 
-    public static final Item TUNGSTEN_SLOP = registerItem("tungsten_slop",
-            new Item(new Item.Settings()
-                    .maxCount(1) // Non-stackable
-                    .food(new FoodComponent.Builder()
-                            .nutrition(2)
-                            .saturationModifier(0.5F)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 45, 2), 1.0F)
-                            .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 20 * 60, 2), 1.0F)
-                            .alwaysEdible()
-                            .usingConvertsTo(Items.BOWL)
-                            .build()
-                    )
-            )
-    );
-
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(TUNGSTEN_INGOT);
             entries.add(TUNGSTEN_SCRAP);
+            entries.add(TUNGSTEN_POWDER);
         });
     }
 }

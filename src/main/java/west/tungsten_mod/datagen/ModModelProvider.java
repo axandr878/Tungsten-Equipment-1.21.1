@@ -23,7 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TUNGSTEN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.TUNGSTEN_SCRAP, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TUNGSTEN_SLOP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_POWDER, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.TUNGSTEN_UPGRADE_TEMPLATE, Models.GENERATED);
 

@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 200,
   "experience": 2.0,
   "group": "tungsten_scrap",
   "ingredient": {
-    "item": "tungsten_mod:tungsten_clump"
+    "item": "tungsten_mod:tungsten_powder"
   },
   "result": {
     "id": "tungsten_mod:tungsten_scrap"

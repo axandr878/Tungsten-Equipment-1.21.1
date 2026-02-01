@@ -22,32 +22,27 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TUNGSTEN_INGOT))
                     .displayName(Text.translatable("itemgroup.tungsten_mod"))
                     .entries((displayContext, entries) -> {
-                        // Materials
                         entries.add(ModItems.TUNGSTEN_INGOT);
                         entries.add(ModItems.TUNGSTEN_SCRAP);
+                        entries.add(ModItems.TUNGSTEN_POWDER);
 
-                        // Template
                         entries.add(ModItems.TUNGSTEN_UPGRADE_TEMPLATE);
 
-                        // Blocks
                         entries.add(ModBlocks.TUNGSTEN_CLUMP);
                         entries.add(ModBlocks.TUNGSTEN_BLOCK);
 
-                        // Tools
                         entries.add(ModItems.TUNGSTEN_SWORD);
                         entries.add(ModItems.TUNGSTEN_PICKAXE);
                         entries.add(ModItems.TUNGSTEN_AXE);
                         entries.add(ModItems.TUNGSTEN_SHOVEL);
                         entries.add(ModItems.TUNGSTEN_HOE);
 
-                        // Armor
                         entries.add(ModItems.TUNGSTEN_HELMET);
                         entries.add(ModItems.TUNGSTEN_CHESTPLATE);
                         entries.add(ModItems.TUNGSTEN_LEGGINGS);
                         entries.add(ModItems.TUNGSTEN_BOOTS);
 
-                        // food
-                        entries.add(ModItems.TUNGSTEN_SLOP);
+                        /*entries.add(ModItems.TUNGSTEN_SLOP);*/
                     })
                     .build()
     );
@@ -59,6 +54,7 @@ public class ModItemGroups {
             entries.add(ModItems.TUNGSTEN_INGOT);
             entries.add(ModItems.TUNGSTEN_SCRAP);
             entries.add(ModBlocks.TUNGSTEN_CLUMP);
+            entries.add(ModItems.TUNGSTEN_POWDER);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
@@ -74,10 +70,6 @@ public class ModItemGroups {
             entries.add(ModItems.TUNGSTEN_CHESTPLATE);
             entries.add(ModItems.TUNGSTEN_LEGGINGS);
             entries.add(ModItems.TUNGSTEN_BOOTS);
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(ModItems.TUNGSTEN_SLOP);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(ModBlocks.TUNGSTEN_BLOCK));
