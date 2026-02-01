@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "tungsten_mod",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"name": "Tungsten Mod",
-	"description": "Tungsten is an overworld alternative to Netherite, offering similar strength without being an exact copy..",
+	"description": "adds an overworld ore that rivals netherite, offering similar strength without being a copy.",
 	"authors": [
 		"West-ghoster"
 	],

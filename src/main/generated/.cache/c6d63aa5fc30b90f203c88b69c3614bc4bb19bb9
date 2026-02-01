@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-01T13:57:27.083151	Tungsten Mod/Tags for minecraft:item
+// 1.21.1	2026-02-01T21:31:22.6592937	Tungsten Mod/Tags for minecraft:item
 447200f0926c9892f3aab73dd0ae11001ad23419 data\minecraft\tags\item\chest_armor.json
 53f65dbc8eee4f3edac58c55a08b7d131a6c44d1 data\minecraft\tags\item\trim_materials.json
 53f65dbc8eee4f3edac58c55a08b7d131a6c44d1 data\minecraft\tags\item\beacon_payment_items.json
@@ -6,8 +6,8 @@ de7206a14239a224a3ffa4fc36c237da06f0df8a data\minecraft\tags\item\pickaxes.json
 f3ef1f169377e8960abc6144df454bd0c16211a5 data\minecraft\tags\item\swords.json
 5bb259e43dc12b18a8d79ac364205d534e0f1b8f data\minecraft\tags\item\enchantable\head_armor.json
 e7e04abf09060da0f174da69ab021ed0c3cbee68 data\minecraft\tags\item\enchantable\leg_armor.json
-7c4ad8fad4a055e632b88e04ad0702cd63ca39f8 data\minecraft\tags\item\axes.json
 7290e81e518a7c4a49360e67f54b5ecb21f8ffb4 data\minecraft\tags\item\foot_armor.json
+7c4ad8fad4a055e632b88e04ad0702cd63ca39f8 data\minecraft\tags\item\axes.json
 3e65168b00c3f04847022fa65db3dc37a082f2e4 data\minecraft\tags\item\shovels.json
 f6b1ebdaef98ffe867129509c6263ee75fe137a1 data\minecraft\tags\item\trimmable_armor.json
 7290e81e518a7c4a49360e67f54b5ecb21f8ffb4 data\minecraft\tags\item\enchantable\foot_armor.json
