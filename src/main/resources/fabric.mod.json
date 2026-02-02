@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "tungsten_mod",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"name": "Tungsten Mod",
 	"description": "adds an overworld ore that rivals netherite, offering similar strength without being a copy.",
 	"authors": [

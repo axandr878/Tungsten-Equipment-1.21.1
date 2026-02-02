@@ -47,16 +47,16 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                 )
                 .criterion(
                         "has_tungsten",
-                        InventoryChangedCriterion.Conditions.items(ModBlocks.TUNGSTEN_CLUMP)
+                        InventoryChangedCriterion.Conditions.items(ModItems.TUNGSTEN_POWDER)
                 )
                 .build(consumer, TungstenMod.MOD_ID + "/obtain_tungsten");
 
         AdvancementEntry SECOND = Advancement.Builder.create()
                 .parent(ROOT)
                 .display(
-                        ModBlocks.TUNGSTEN_CLUMP,
+                        ModItems.TUNGSTEN_POWDER,
                         Text.literal("Netherites Equal"),
-                        Text.literal("Obtain a Tungsten Clump"),
+                        Text.literal("Obtain Tungsten Powder"),
                         bg,
                         AdvancementFrame.TASK,
                         true,
@@ -64,10 +64,10 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         false
                 )
                 .criterion(
-                        "has_tungsten_clump",
-                        InventoryChangedCriterion.Conditions.items(ModBlocks.TUNGSTEN_CLUMP)
+                        "has_tungsten_powder",
+                        InventoryChangedCriterion.Conditions.items(ModItems.TUNGSTEN_POWDER)
                 )
-                .build(consumer, TungstenMod.MOD_ID + "/obtain_tungsten_clump");
+                .build(consumer, TungstenMod.MOD_ID + "/obtain_tungsten_powder");
 
 
         AdvancementEntry THIRD = Advancement.Builder.create()
