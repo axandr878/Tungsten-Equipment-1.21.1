@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "tungsten_mod",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "name": "Tungsten Mod",
-  "description": "adds an overworld ore that rivals netherite, offering similar strength without being a copy.",
+  "description": "A late-game upgrade path that gives you more options then just plain ol netherite.",
   "authors": [
     "West-ghoster"
   ],
@@ -11,7 +11,7 @@
     "homepage": "https://modrinth.com/mod/tungsten-equipment"
   },
   "license": "CC0-1.0",
-  "icon": "assets/tungsten_mod/logo.png",
+  "icon": "logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [

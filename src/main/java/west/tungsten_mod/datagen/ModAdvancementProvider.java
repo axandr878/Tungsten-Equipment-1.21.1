@@ -6,8 +6,6 @@ import net.minecraft.advancement.Advancement;
 import net.minecraft.advancement.AdvancementEntry;
 import net.minecraft.advancement.AdvancementFrame;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
-import net.minecraft.item.Item;
-import net.minecraft.predicate.item.ItemPredicate;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
@@ -167,6 +165,25 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
                         InventoryChangedCriterion.Conditions.items(ModItems.TUNGSTEN_HOE)
                 )
                 .build(consumer, TungstenMod.MOD_ID + "/obtain_tungsten_tools");
+
+        AdvancementEntry HORSE_ARMOR = Advancement.Builder.create()
+                .parent(SIXTH) // branch off the tungsten template advancement
+                .display(
+                        ModItems.TUNGSTEN_HORSE_ARMOR,
+                        Text.literal("Tungsten Steed"),
+                        Text.literal("Obtain Tungsten Horse Armor"),
+                        null, // can set bg if you want, or leave null
+                        AdvancementFrame.TASK,
+                        true,
+                        true,
+                        false
+                )
+                .criterion(
+                        "has_tungsten_horse_armor",
+                        InventoryChangedCriterion.Conditions.items(ModItems.TUNGSTEN_HORSE_ARMOR)
+                )
+                .build(consumer, TungstenMod.MOD_ID + "/obtain_tungsten_horse_armor");
+
 
     }
 }

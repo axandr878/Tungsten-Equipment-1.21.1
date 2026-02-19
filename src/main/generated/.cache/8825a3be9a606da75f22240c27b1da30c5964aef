@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-12T19:44:10.2297361	Tungsten Mod/Model Definitions
+// 1.21.1	2026-02-18T20:26:47.0423191	Tungsten Mod/Model Definitions
 6e201449df66831851b40fea013797978968a759 assets\tungsten_mod\models\item\tungsten_leggings_iron_trim.json
 cd7c7d6819dec7c863a8b28b195d53ac6c73e1c7 assets\tungsten_mod\models\item\tungsten_chestplate_copper_trim.json
 e0bc5550567d7ed6a332534ed2a28e79304b6631 assets\tungsten_mod\models\item\tungsten_sword.json
@@ -33,6 +33,7 @@ cf5834fd3a34ce426584c2055f17f73958db52c9 assets\tungsten_mod\models\item\tungste
 d75c900ac91b1e1bce30730da53c4d732358d31f assets\tungsten_mod\models\item\tungsten_boots_gold_trim.json
 014d816a6b274b2ff67b2215a4e2d450ea545db1 assets\tungsten_mod\models\block\tungsten_clump.json
 75917522bca15a8167b8e1d5b88ec900223ca1c2 assets\tungsten_mod\models\item\tungsten_helmet_gold_trim.json
+0ff8f3f06ded8559bae2e9180abf9415aa25285b assets\tungsten_mod\models\item\tungsten_horse_armor.json
 f07f1acc8071ec8fbafdf6a3799f307b8a9b75cb assets\tungsten_mod\models\item\tungsten_leggings_lapis_trim.json
 2fff480ed33e4fa937215678dd1c96fb4fcc3a8e assets\tungsten_mod\models\item\tungsten_helmet_netherite_trim.json
 62630d1f04b8427dbf78d714d5419b39be294993 assets\tungsten_mod\models\item\tungsten_chestplate_quartz_trim.json

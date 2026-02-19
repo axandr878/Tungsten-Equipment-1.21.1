@@ -9,6 +9,8 @@ import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import west.tungsten_mod.TungstenMod;
 import net.minecraft.item.SmithingTemplateItem;
+import west.tungsten_mod.item.custom.ModArmorItem;
+
 import java.util.List;
 
 
@@ -91,17 +93,20 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TUNGSTEN, -4.0F, 0.0F))));
 
     public static final Item TUNGSTEN_HELMET = registerItem("tungsten_helmet",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.HELMET, new Item.Settings().fireproof()
+            new ModArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.HELMET, new Item.Settings().fireproof()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(42))));
     public static final Item TUNGSTEN_CHESTPLATE = registerItem("tungsten_chestplate",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()
+            new ModArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(42))));
     public static final Item TUNGSTEN_LEGGINGS = registerItem("tungsten_leggings",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()
+            new ModArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(42))));
     public static final Item TUNGSTEN_BOOTS = registerItem("tungsten_boots",
-            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()
+            new ModArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new Item.Settings().fireproof()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(42))));
+
+    public static final Item TUNGSTEN_HORSE_ARMOR = registerItem("tungsten_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.TUNGSTEN, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
 
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {

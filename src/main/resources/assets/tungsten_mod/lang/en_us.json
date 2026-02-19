@@ -7,13 +7,15 @@
   "block.tungsten_mod.tungsten_block": "Block of Tungsten",
   "block.tungsten_mod.tungsten_clump": "Tungsten Ore",
 
-  "itemgroup.tungsten_mod": "Tungsten Mod",
+  "itemgroup.tungsten_mod": "Tungsten Equipment",
 
   "item.tungsten_mod.tungsten_shovel": "Tungsten Shovel",
   "item.tungsten_mod.tungsten_axe": "Tungsten Axe",
   "item.tungsten_mod.tungsten_pickaxe": "Tungsten Pickaxe",
   "item.tungsten_mod.tungsten_hoe": "Tungsten Hoe",
   "item.tungsten_mod.tungsten_sword": "Tungsten Sword",
+
+  "item.tungsten_mod.tungsten_horse_armor": "Tungsten Horse Armor",
 
   "item.tungsten_mod.tungsten_upgrade_template.applies_to": "Diamond Equipment",
   "item.tungsten_mod.tungsten_upgrade_template.ingredients": "Tungsten Ingot",
@@ -26,5 +28,13 @@
   "item.tungsten_mod.tungsten_boots": "Tungsten Boots",
   "item.tungsten_mod.tungsten_leggings": "Tungsten Leggings",
 
-  "item.tungsten_mod.tungsten_powder": "Tungsten Powder"
+  "item.tungsten_mod.tungsten_helmet.tooltip": "-2.5% Movement Speed",
+  "item.tungsten_mod.tungsten_chestplate.tooltip": "-2.5% Movement Speed",
+  "item.tungsten_mod.tungsten_leggings.tooltip": "-2.5% Movement Speed",
+  "item.tungsten_mod.tungsten_boots.tooltip": "-2.5% Movement Speed",
+
+  "item.tungsten_mod.tungsten_powder": "Tungsten Powder",
+
+  "pack.tungsten_mod.legacy": "Legacy Tungsten",
+  "pack.tungsten_mod.glowing_tungsten": "Glowing Tungsten"
 }

@@ -1,7 +1,8 @@
-// 1.21.1	2026-02-12T19:44:10.227735	Tungsten Mod/Advancements
+// 1.21.1	2026-02-18T20:26:47.0413161	Tungsten Mod/Advancements
 11a48ab3814447e07bb75415550af6d6f03dc602 data\minecraft\advancement\tungsten_mod\obtain_tungsten_powder.json
 3f17de7c310890179c77beb6c2450d3070768555 data\minecraft\advancement\tungsten_mod\obtain_tungsten_tools.json
 6c25c1a04886717451ead2e463a22af4c09d7087 data\minecraft\advancement\tungsten_mod\obtain_tungsten_block.json
 09cb56f7bf142ecc40f94863edf8136893207549 data\minecraft\advancement\tungsten_mod\obtain_tungsten_template.json
+518e17b26a0a91dbe35c5759a651aa74d0558dce data\minecraft\advancement\tungsten_mod\obtain_tungsten_horse_armor.json
 30c32627d98211fa7945dfb2a395ca1e41360100 data\minecraft\advancement\tungsten_mod\obtain_tungsten.json
 9c00ad671209eef2f9251154cc81040810d20654 data\minecraft\advancement\tungsten_mod\obtain_tungsten_armor.json

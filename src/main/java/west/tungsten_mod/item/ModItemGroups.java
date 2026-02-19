@@ -15,9 +15,9 @@ import west.tungsten_mod.block.ModBlocks;
 public class ModItemGroups {
 
     // Custom Tungsten mod tab
-    public static final ItemGroup TUNGSTEN_MOD_GROUP = Registry.register(
+    public static final ItemGroup TUNGSTEN_EQUIPMENT_GROUP = Registry.register(
             Registries.ITEM_GROUP,
-            Identifier.of(TungstenMod.MOD_ID, "tungsten_mod"),
+            Identifier.of(TungstenMod.MOD_ID, "tungsten_equipment"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItems.TUNGSTEN_INGOT))
                     .displayName(Text.translatable("itemgroup.tungsten_mod"))
@@ -42,7 +42,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TUNGSTEN_LEGGINGS);
                         entries.add(ModItems.TUNGSTEN_BOOTS);
 
-                        /*entries.add(ModItems.TUNGSTEN_SLOP);*/
+                        entries.add(ModItems.TUNGSTEN_HORSE_ARMOR);
                     })
                     .build()
     );

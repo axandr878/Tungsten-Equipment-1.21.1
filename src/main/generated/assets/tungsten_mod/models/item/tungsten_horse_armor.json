@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tungsten_mod:item/tungsten_horse_armor"
+  }
+}

@@ -37,5 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_BOOTS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_LEGGINGS));
+
+        itemModelGenerator.register(ModItems.TUNGSTEN_HORSE_ARMOR, Models.GENERATED);
     }
 }

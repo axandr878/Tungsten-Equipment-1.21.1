@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:tungsten_mod/obtain_tungsten_template",
+  "criteria": {
+    "has_tungsten_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tungsten_mod:tungsten_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Obtain Tungsten Horse Armor",
+    "icon": {
+      "count": 1,
+      "id": "tungsten_mod:tungsten_horse_armor"
+    },
+    "title": "Tungsten Steed"
+  },
+  "requirements": [
+    [
+      "has_tungsten_horse_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

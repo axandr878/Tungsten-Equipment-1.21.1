@@ -218,5 +218,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
                 )
                 .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_chestplate_upgrade"));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HORSE_ARMOR),
+                        Ingredient.ofItems(ModItems.TUNGSTEN_INGOT),
+                        RecipeCategory.MISC,
+                        ModItems.TUNGSTEN_HORSE_ARMOR
+                )
+                .criterion(
+                        hasItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
+                        conditionsFromItem(ModItems.TUNGSTEN_UPGRADE_TEMPLATE)
+                )
+                .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_horse_armor_upgrade"));
     }
 }
