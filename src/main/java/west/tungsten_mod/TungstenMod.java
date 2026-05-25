@@ -34,14 +34,12 @@ public class TungstenMod implements ModInitializer {
 				.getModContainer(MOD_ID)
 				.orElseThrow();
 
-		// Legacy pack
 		ResourceManagerHelper.registerBuiltinResourcePack(
 				Identifier.of(MOD_ID, "legacy"),
 				container,
 				ResourcePackActivationType.NORMAL
 		);
 
-		// Glowing Tungsten pack
 		ResourceManagerHelper.registerBuiltinResourcePack(
 				Identifier.of(MOD_ID, "glowing_tungsten"),
 				container,

@@ -29,8 +29,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
     public void generateAdvancement(RegistryWrapper.WrapperLookup wrapperLookup, Consumer<AdvancementEntry> consumer) {
 
         Identifier bg = Identifier.tryParse("minecraft:textures/gui/advancements/backgrounds/stone.png");
-
-        // ROOT — now uses Tungsten Ore
+        
         AdvancementEntry ROOT = Advancement.Builder.create()
                 .display(
                         ModBlocks.TUNGSTEN_ORE,

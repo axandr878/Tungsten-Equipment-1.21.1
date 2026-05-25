@@ -20,9 +20,7 @@ public class TungstenSlopItem extends Item {
         if (user instanceof PlayerEntity player && !player.isCreative()) {
             ItemStack bowl = new ItemStack(Items.BOWL);
 
-            // Try to add to inventory
             if (!player.getInventory().insertStack(bowl)) {
-                // Drop if inventory full
                 player.dropItem(bowl, false);
             }
         }

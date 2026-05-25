@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import west.tungsten_mod.datagen.*;
-import west.tungsten_mod.enchantment.ModEnchantments;
 import west.tungsten_mod.trim.ModTrimMaterials;
 import west.tungsten_mod.world.ModConfiguredFeatures;
 import west.tungsten_mod.world.ModPlacedFeatures;

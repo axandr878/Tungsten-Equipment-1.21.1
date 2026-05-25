@@ -12,6 +12,5 @@ public class ModEnchantments {
                     Identifier.of(TungstenMod.MOD_ID, "heavy"));
 
     public static void bootstrap() {
-        // Nothing here — JSON handles everything
     }
 }

@@ -23,10 +23,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
-        // Block drops itself
         addDrop(ModBlocks.TUNGSTEN_BLOCK);
 
-        // Ore with Silk Touch support
         addDrop(
                 ModBlocks.TUNGSTEN_ORE,
                 dropsWithSilkTouch(

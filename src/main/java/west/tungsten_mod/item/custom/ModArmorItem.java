@@ -29,7 +29,6 @@ public class ModArmorItem extends ArmorItem {
 
         List<Entry> entries = new ArrayList<>(vanilla.modifiers());
 
-        // Unique ID per armor slot (THIS FIXES STACKING)
         Identifier modifierId = Identifier.of(
                 TungstenMod.MOD_ID,
                 "tungsten_speed_penalty_" + this.getSlotType().getName()

@@ -41,5 +41,6 @@
   "pack.tungsten_mod.legacy": "Legacy Tungsten",
   "pack.tungsten_mod.glowing_tungsten": "Glowing Tungsten",
 
-  "enchantment.tungsten_mod.heavy": "Heavy"
+  "enchantment.tungsten_mod.heavy": "Heavy",
+  "enchantment.tungsten_mod.heavy.desc": "Increases armor knockback resistance (stacks per piece) but increases weight, reducing movement speed."
 }

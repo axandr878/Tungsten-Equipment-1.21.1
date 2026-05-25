@@ -164,9 +164,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 )
                 .offerTo(exporter, Identifier.of(TungstenMod.MOD_ID, "tungsten_shovel_upgrade"));
 
-        // armor not tools smithing
-
-
         SmithingTransformRecipeJsonBuilder.create(
                         Ingredient.ofItems(ModItems.TUNGSTEN_UPGRADE_TEMPLATE),
                         Ingredient.ofItems(Items.DIAMOND_BOOTS),

@@ -2,8 +2,6 @@ package west.tungsten_mod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.ItemEnchantmentsComponent;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentLevelEntry;
 import net.minecraft.item.*;
@@ -16,15 +14,10 @@ import net.minecraft.util.Identifier;
 import west.tungsten_mod.TungstenMod;
 import west.tungsten_mod.block.ModBlocks;
 import west.tungsten_mod.enchantment.ModEnchantments;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentLevelEntry;
 import net.minecraft.item.EnchantedBookItem;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
 
 public class ModItemGroups {
 
-    // Custom Tungsten mod tab
     public static final ItemGroup TUNGSTEN_EQUIPMENT_GROUP = Registry.register(
             Registries.ITEM_GROUP,
             Identifier.of(TungstenMod.MOD_ID, "tungsten_equipment"),
@@ -60,10 +53,14 @@ public class ModItemGroups {
                                 .getWrapperOrThrow(RegistryKeys.ENCHANTMENT)
                                 .getOrThrow(ModEnchantments.HEAVY);
 
-                        for (int level = 1; level <= 3; level++) {
-                            entries.add(EnchantedBookItem.forEnchantment(
-                                    new EnchantmentLevelEntry(heavyEntry, level)
-                            ));
+                        int maxLevel = heavyEntry.value().getMaxLevel();
+
+                        for (int level = 1; level <= maxLevel; level++) {
+                            entries.add(
+                                    EnchantedBookItem.forEnchantment(
+                                            new EnchantmentLevelEntry(heavyEntry, level)
+                                    )
+                            );
                         }
 
                     })

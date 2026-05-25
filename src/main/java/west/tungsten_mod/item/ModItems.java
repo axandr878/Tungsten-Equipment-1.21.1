@@ -10,7 +10,6 @@ import net.minecraft.util.Identifier;
 import west.tungsten_mod.TungstenMod;
 import net.minecraft.item.SmithingTemplateItem;
 import west.tungsten_mod.item.custom.ModArmorItem;
-import west.tungsten_mod.item.TungstenSlopItem;
 
 import java.util.List;
 
